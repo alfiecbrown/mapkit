@@ -128,7 +128,7 @@
     };
 
     var renderStars = function (rating) {
-      var stars = "<div class='review-stars'><ul>";
+      var stars = "<div class='review-stars'><ul class='star-wrapper'>";
 
       // fill in gold stars
       for (var i = 0; i < rating; i++) {
