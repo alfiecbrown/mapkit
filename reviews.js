@@ -108,8 +108,9 @@
       // requires slick, make sure to include!
       $element.slick({
           slidesToShow: plugin.settings.show,
-          prevArrow: '<a href="#" class="slide-button button-left w-button"><strong>‹</strong></a>',
-          nextArrow: '<a href="#" class="slide-button button-right w-button"><strong>›</strong></a>',
+          // prevArrow: '<a href="#" class="slide-button button-left w-button"><strong>‹</strong></a>',
+          // nextArrow: '<a href="#" class="slide-button button-right w-button"><strong>›</strong></a>',
+          autoplay: true,
           responsive: [
             {
               breakpoint: 760,
