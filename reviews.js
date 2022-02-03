@@ -111,6 +111,7 @@
           // prevArrow: '<a href="#" class="slide-button button-left w-button"><strong>‹</strong></a>',
           // nextArrow: '<a href="#" class="slide-button button-right w-button"><strong>›</strong></a>',
           autoplay: true,
+          arrows: false,
           responsive: [
             {
               breakpoint: 760,
